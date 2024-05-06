@@ -22,12 +22,24 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/assets/img",
+              "src/assets/video"
             ],
             "styles": [
-              "src/styles.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css",
+              "src/assets/bootstrap.min.css",
+              "src/assets/slick.css",
+              "src/assets/templatemo-style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "src/app/js/jquery-3.5.1.min.js",
+              "src/app/js/bootstrap.min.js",
+              "src/app/js/slick.js",
+              "src/app/js/templatemo-script.js"
+            ]
           },
           "configurations": {
             "production": {
