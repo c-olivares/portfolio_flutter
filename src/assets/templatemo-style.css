@@ -2,6 +2,7 @@
 
 html, body, .page-container {
     height: 100%;
+   overflow-x: hidden; 
 }
 
 body {
@@ -10,7 +11,11 @@ body {
     font-weight: 300;
     color: white;
     line-height: 1.5;
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255,255,255,0);
+    background-image: url(./video/aurora4.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
 }
 
 a {
@@ -56,9 +61,10 @@ h2 {
 }
 
 .btn-primary {
-    background-color: white;
+    background-color: rgb(229, 241, 241);
     border: none;
     color: #333;
+    border-radius: 10px;
 }
 
 .btn-primary:hover,
@@ -67,22 +73,6 @@ h2 {
     background-color: white;
 }
 
-/* Style the video: 100% width and height to cover the entire window */
-#bg-video {
-    position: fixed;
-    left: 50%;
-    top: 50%;
-    bottom: auto;
-    right: auto;
-    min-width: 100%;
-    min-height:  100%;
-    transform: translateX(-50%) translateY(-50%);
-    z-index: -100;
-    background-image: url(./img/tm-astro-bg.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
 
 
 #tm-nav {
